@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Graduate Student Government</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/styles.css}" />
+</head>
+<body>
+<th:block th:include="/_header"></th:block>
+<th:block th:include="/_menu"></th:block>
+
+<div class="page-title">Graduate Student Government </div>
+<div class="logo-container">
+    <img src="logo.png" alt="logo">
+</div>
+<div class="demo-container">
+    <h3>Welcome!</h3>
+    <ul>
+        <li>Place your Swags order online</li>
+        <li>Head to products list</li>
+    </ul>
+</div>
+
+<th:block th:include="/_footer"></th:block>
+
+</body>
+</html>
